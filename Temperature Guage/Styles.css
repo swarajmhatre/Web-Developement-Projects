@@ -1,0 +1,13 @@
+/* Heading */
+#Heading{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+/* button */
+.button {
+    border-radius: 20px;
+  }
+  .button:hover {
+    font-style: oblique;
+    cursor: pointer;
+  }

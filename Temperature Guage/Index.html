@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature Guage</title>
+<!-- link to JavScript Files -->
+  <script src="Framework.js"></script>
+  <script src="App.js" defer></script>
+  <!-- Link to CSS File -->
+  <link rel="stylesheet" href="Styles.css" />
+</head>
+<!-- HTML PAGE BODY -->
+<body>
+  <!-- heading -->
+  <h1 id="Heading"> Temperature Guage</h1>
+  <!-- Canvass -->
+  <center>
+  <div style="
+        border: 5px;
+        border-radius: 10px;
+        float: inline-end;
+        border-style: solid;
+        border-color: black;
+        height: 600px;
+        width: 800px;
+      ">
+    <!-- canvas -->
+    <canvas id="mycanvas" height="600" width="800"></canvas>
+  </div>
+</center>
+<br><br>
+<!-- slider -->
+<center> <div class="slidecontainer">
+  <!-- Input Slider -->
+  <input type="range" min="0" max="240" value="0" oninput="Needle();" class="slider" id="t1">
+</div></center>
+ 
+</body>
+
+<br><br>
+<!-- footer -->
+<footer><b>@All_Rights_Reserved</b></footer>
+</html>
